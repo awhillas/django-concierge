@@ -29,3 +29,10 @@ Detailed documentation is in the "docs" directory.
 
 6. You will need to add a JavaScript snippet to your base template(s) which will gather
     the analytics data and send it to the server via AJaX.
+
+## TODOs
+
+- [ ] Admin dashboard
+- [ ] Lookup location of IP address
+- [ ] Cookies for tracking sessions
+- [ ] Deermine bounce rate
