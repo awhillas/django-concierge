@@ -1,6 +1,6 @@
 LICENSE
 MANIFEST.in
-README.rst
+README.md
 pyproject.toml
 setup.cfg
 setup.py
@@ -9,6 +9,7 @@ django_concierge/admin.py
 django_concierge/apps.py
 django_concierge/models.py
 django_concierge/tests.py
+django_concierge/urls.py
 django_concierge/views.py
 django_concierge.egg-info/PKG-INFO
 django_concierge.egg-info/SOURCES.txt
@@ -16,3 +17,5 @@ django_concierge.egg-info/dependency_links.txt
 django_concierge.egg-info/requires.txt
 django_concierge.egg-info/top_level.txt
 django_concierge/migrations/__init__.py
+django_concierge/static/concierge/js/snoop.js
+django_concierge/templates/concierge/concierge_js_header.html

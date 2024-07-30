@@ -1,3 +1,17 @@
 [build-system]
 requires = ['setuptools>=40.8.0']
 build-backend = 'setuptools.build_meta'
+
+[project]
+name = "django-concierge"
+version = "2024.07.30"
+authors = [
+    { name = "Alexander Whillas", email = "whillas+opensource@gmail.com" },
+]
+readme = "README.md"
+requires-python = ">= 3.11"
+dependencies = ["django>5.0", "ua_parser[re2]>=0.18.0", "django-ipware>=7.0.1"]
+dynamic = ["description", "license", "classifiers"]
+
+[project.optional-dependencies]
+dev = ["uv"]

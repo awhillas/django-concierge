@@ -1,0 +1,8 @@
+{% load static %}
+<script>
+    var concierge = {
+        csrf_token: '{{ csrf_token }}',
+        api_url: '{% url 'concierge_ajax_endpoint' %}',
+    };
+</script>
+<script src="{% static 'concierge/js/snoop.js' %}"></script>

@@ -18,9 +18,14 @@ Detailed documentation is in the "docs" directory.
 
     path("concierge/", include("django_concierge.urls")),
 
-3. Run `python manage.py migrate` to create the models.
+3. Add the following in you base HTML template(s) which will include the JavaScript
+    needed to gather the analytics data:
 
-4. Start the development server and visit the admin to view the analytics dashboard.
+    {% include "concierge/concierge_js_header.html" %}
 
-5. You will need to add a JavaScript snippet to your base template(s) which will gather
+4. Run `python manage.py migrate` to create the models.
+
+5. Start the development server and visit the admin to view the analytics dashboard.
+
+6. You will need to add a JavaScript snippet to your base template(s) which will gather
     the analytics data and send it to the server via AJaX.
